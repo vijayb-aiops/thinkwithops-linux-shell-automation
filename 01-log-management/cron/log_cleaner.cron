@@ -1,5 +1,0 @@
-# Log cleaner - daily dry run at 02:30
-30 2 * * * /home/ec2-user/thinkwithops-linux-shell-automation/01-log-management/src/log_cleaner.sh --dry-run --report >> /home/ec2-user/thinkwithops-linux-shell-automation/01-log-management/output/cron.log 2>&1
-
-# To enable real cleanup, replace --dry-run with --run (ensure you reviewed the output first)
-# 30 2 * * * /home/ec2-user/thinkwithops-linux-shell-automation/01-log-management/src/log_cleaner.sh --run --report >> /home/ec2-user/thinkwithops-linux-shell-automation/01-log-management/output/cron.log 2>&1
